@@ -1,0 +1,145 @@
+.contact-us {
+    display: flex;
+    justify-content: space-between; /* จัดเรียงให้ Contact Us และ Send Message อยู่ข้างกัน */
+    gap: 20px;
+    flex-wrap: wrap; /* ให้สามารถขึ้นบรรทัดใหม่เมื่อพื้นที่ไม่พอ */
+}
+
+.contact-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.contact-info-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%; /* ปรับให้เต็มความกว้าง */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ Contact Info */
+}
+
+.google-map {
+    margin-top: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ Google Map */
+    border-radius: 8px; /* เพิ่มขอบมน */
+}
+
+.contact-form-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 48%; /* ปรับความกว้าง */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ Form */
+    background-color: #fff;
+}
+
+.contact-form-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.contact-info-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+}
+
+.google-map {
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    border-radius: 8px;
+    width: 100%; /* ให้กว้างเต็ม */
+}
+
+.contact-form-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 48%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    background-color: #fff;
+}
+
+.contact-form-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}

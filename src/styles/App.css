@@ -1,0 +1,61 @@
+/* App.css */
+
+/* แถบด้านบน */
+.top-banner {
+  background-color: #333; /* พื้นหลังสีเทาเข้ม */
+  color: white; /* ตัวอักษรสีขาว */
+  text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+  padding: 15px 20px; /* เพิ่มระยะห่างด้านใน */
+  font-size: 1.2rem; /* ขนาดตัวอักษร */
+  font-weight: bold; /* ทำให้ตัวอักษรหนา */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+}
+
+.top-banner p {
+  margin: 5px 0; /* เว้นระยะระหว่างข้อความ 2 แถว */
+}
+
+/* แถบเมนู */
+.navbar {
+  background-color: #4caf50; /* พื้นหลังสีเขียว */
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ส่วนของเนื้อหาหน้า */
+.home, .about, .courses, .contact {
+  text-align: center;
+  padding: 20px;
+}
+
+.home h1, .about h1, .courses h1, .contact h1 {
+  font-size: 2.5rem;
+  color: #4caf50;
+}
+
+.home p, .about p, .courses p, .contact p {
+  font-size: 1.2rem;
+  color: #555;
+}
