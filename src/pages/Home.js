@@ -10,16 +10,18 @@ const Home = () => {
         <h1>Welcome To The Information Technology Department</h1>
         <p>ยินดีต้อนรับเข้าสู่สาขาเทคโนโลยีสารสนเทศ</p>
       </div>
+
+      {/* ส่วนการ์ด 3 ใบ (Learn Programming, Web Development, Graphic Design) */}
       <div className="card-container">
-        <div className="card">
+        <div className="home-card">
           <h2>Learn Programming</h2>
           <p>เรียนรู้การเขียนโปรแกรม.</p>
         </div>
-        <div className="card">
+        <div className="home-card">
           <h2>Web Development</h2>
           <p>ผู้พัฒนาเว็ปไซต์.</p>
         </div>
-        <div className="card">
+        <div className="home-card">
           <h2>Graphic Design</h2>
           <p>ออกแบบ Graphic/ผลิตภัณฑ์</p>
         </div>

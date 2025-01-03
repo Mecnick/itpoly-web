@@ -29,29 +29,35 @@
 }
 
 .card {
-    padding: 20px;
-    border: 1px solid #66ff00;
-    border-radius: 8px;
-    background-color: #98ff98; /* เปลี่ยนเป็นสีเข้มขึ้น */
-    color: #fff; /* เปลี่ยนสีตัวอักษรให้เป็นสีขาวเพื่อให้ตัดกับพื้นหลัง */
-    width: 48%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงาที่เข้มขึ้น */
-  }
-  
-  .card h2 {
-    color: #000000; /* เปลี่ยนสีหัวข้อให้เป็นสีขาว */
-  }
-  
-  .card p {
-    color: #ccc; /* เปลี่ยนสีข้อความเป็นสีอ่อนเพื่อให้ดูดีในพื้นหลังเข้ม */
-  }
-  
-  .card-link {
-    color: #ffffff; /* เปลี่ยนสีลิงก์ให้เป็นสีเขียวสดใส */
-    text-decoration: none;
-  }
-  
-  .card-link:hover {
-    color: #62ff4e; /* เปลี่ยนสีเมื่อ hover ให้เข้มขึ้น */
-  }
-  
+  padding: 20px;
+  border: 1px solid #66ff00;
+  border-radius: 8px;
+  background-color: #98ff98;
+  /* เปลี่ยนเป็นสีเข้มขึ้น */
+  color: #fff;
+  /* เปลี่ยนสีตัวอักษรให้เป็นสีขาวเพื่อให้ตัดกับพื้นหลัง */
+  width: 48%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  /* เพิ่มเงาที่เข้มขึ้น */
+}
+
+.card h2 {
+  color: #000000;
+  /* เปลี่ยนสีหัวข้อให้เป็นสีขาว */
+}
+
+.card p {
+  color: #ccc;
+  /* เปลี่ยนสีข้อความเป็นสีอ่อนเพื่อให้ดูดีในพื้นหลังเข้ม */
+}
+
+.card-link {
+  color: #ffffff;
+  /* เปลี่ยนสีลิงก์ให้เป็นสีเขียวสดใส */
+  text-decoration: none;
+}
+
+.card-link:hover {
+  color: #62ff4e;
+  /* เปลี่ยนสีเมื่อ hover ให้เข้มขึ้น */
+}
